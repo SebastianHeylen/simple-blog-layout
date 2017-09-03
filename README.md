@@ -1,2 +1,2 @@
-# simple-blog-layout
-A
+# Simple blog layout
+
