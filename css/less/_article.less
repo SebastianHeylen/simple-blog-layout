@@ -1,0 +1,66 @@
+.article {
+    width: @article-width;
+    background: @white;
+    margin-bottom: 2em;
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.15);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &-header {
+        text-align: center;
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            padding: 1em 0 .3em 0;
+        }
+
+        .article-info {
+            width: 100%;
+            margin-bottom: 1em;
+
+            li {
+                display: inline-block;
+                text-transform: uppercase;
+                color: #999999;
+                font-size: 0.8125rem;
+                font-weight: 700;
+                margin-right: 1em;
+
+                a {
+                    color: #999999;
+                    font-size: 0.8125rem;
+                }
+            }
+        }
+    }
+
+    &-content {
+        text-align: justify;
+        margin: 0;
+        padding: 0 4em 1em 4em;
+    }
+
+    &-footer {
+        padding: 0 4em 2em 4em;
+
+        .tags {
+            width: 100%;
+
+            li {
+                display: inline-block;
+                font-weight: 800;
+                margin-right: 1em;
+
+                a {
+                    font-size: .85rem;
+                    color: #999999;
+                }
+            }
+        }
+    }
+}
